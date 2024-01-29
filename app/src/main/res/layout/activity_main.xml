@@ -1,89 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/backgroundImageView"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/home_icon" />
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/home_icon">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="417dp"
+            android:layout_height="72dp"
+            android:background="#2196F3"
+            app:menu="@menu/menu_home">
 
-        <!-- Your other UI elements go here -->
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <ImageView
+            android:id="@+id/backgroundImageView"
+            android:layout_width="528dp"
+            android:layout_height="699dp"
+            android:paddingLeft="280dp"
+            android:paddingTop="0dp"
+            android:paddingRight="380dp"
+            android:paddingBottom="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg"
+            tools:layout_editor_absoluteX="-6dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="314dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#99141414"
+            android:fontFamily="sans-serif-medium"
+            android:padding="21dp"
+            android:text="Better Meals, Better World."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottom_navigation"
+            app:layout_constraintVertical_bias="0.17" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="314dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#99141414"
+            android:fontFamily="sans-serif-medium"
+            android:text="Discover New Taste With Us"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.0" />
+
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context=".MainActivity">
+            android:layout_width="415dp"
+            android:layout_height="1630dp"
+            tools:layout_editor_absoluteX="-4dp"
+            tools:layout_editor_absoluteY="19dp">
 
-
-            <com.google.android.material.bottomnavigation.BottomNavigationView
-                android:id="@+id/bottom_navigation"
-                android:layout_width="wrap_content"
-                android:layout_height="129dp"
+            <LinearLayout
+                android:id="@+id/footerLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="-1dp"
-                android:layout_marginLeft="-1dp"
-                android:layout_marginTop="-1dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginRight="-2dp"
+                android:layout_marginBottom="80dp"
+                android:background="#002395"
+                android:orientation="horizontal"
+                android:padding="80dp">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="250dp"
+                    android:layout_height="295dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Your TextView Texttttttt"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/footerLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignStart="@+id/footerLayout1"
+                android:layout_alignLeft="@+id/footerLayout1"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="-5dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginRight="0dp"
-                android:layout_marginBottom="603dp"
-                android:background="#2196F3"
-                app:menu="@menu/menu_home" />
+                android:layout_marginBottom="30dp"
+                android:background="#000080"
+                android:orientation="horizontal"
+                android:padding="80dp">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="306dp"
-                android:layout_height="67dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_marginBottom="501dp"
-                android:background="#99141414"
-                android:padding="20dp"
-                android:text="Better Meals, Better World. "
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="20dp" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="305dp"
-                android:layout_height="50dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_marginBottom="451dp"
-                android:background="#99141414"
-                android:padding="1dp"
-                android:text="Discover New Taste With Us."
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="15dp" />
-
-
+            </LinearLayout>
         </RelativeLayout>
-    </RelativeLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
+</ScrollView>
