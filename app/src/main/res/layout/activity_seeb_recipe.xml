@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bo_recipe">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="417dp"
+        android:layout_height="72dp"
+        android:background="#2196F3"
+        app:menu="@menu/menu_home"/>
+
+    <LinearLayout
+        android:id="@+id/footerLayout1"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#002395"
+        android:orientation="horizontal"
+        android:padding="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941">
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:text="Contact Us                                                                                               Call Us 012-345-678                                                                                                                            Address: Dagupan City"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/footerLayout2"
+        android:layout_width="416dp"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/footerLayout1"
+        android:layout_alignLeft="@+id/footerLayout1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#000080"
+        android:orientation="horizontal"
+        android:padding="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/footerLayout1"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/footerLayout1"
+        app:layout_constraintTop_toBottomOf="@+id/footerLayout1"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="269dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center"
+            android:text="© SIBOL 2024"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="218dp"
+        android:src="@drawable/seeb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="403dp"
+        android:layout_height="47dp"
+        android:text="SALMON EGG SPECIAL"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="26dp"
+        android:text="Ingredients"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="410dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:text="Eggs - 4  |  White Vinegar - 2 Tbs  |  Muffins - 2   |   Butter  |   Smoked Salmon - 8 Slices   |   Lemon Juice - 2 Tsp   |   "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="119dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:text="Instructions"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="416dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="4dp"
+        android:text="First Make The Hollandaise Sauce. Put The Lemon Juice And Vinegar In A Small Bowl, Add The Egg Yolks And Whisk With A Balloon Whisk Until Light And Frothy. Place The Bowl Over A Pan Of Simmering Water And Whisk Until Mixture Thickens. Gradually Add The Butter, Whisking Constantly Until Thick – If It Looks Like It Might Be Splitting, Then Whisk Off The Heat For A Few Mins. Season And Keep Warm. To Poach The Eggs, Bring A Large Pan Of Water To The Boil And Add The Vinegar. Lower The Heat So That The Water Is Simmering Gently. Stir The Water So You Have A Slight Whirlpool, Then Slide In The Eggs One By One. Cook Each For About 4 Mins, Then Remove With A Slotted Spoon. Lightly Toast And Butter The Muffins, Then Put A Couple Of Slices Of Salmon On Each Half. Top Each With An Egg, Spoon Over Some Hollandaise And Garnish With Chopped Chives."
+        android:textAlignment="center"
+        android:textSize="11dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>
