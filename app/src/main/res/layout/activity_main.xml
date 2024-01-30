@@ -19,21 +19,21 @@
             android:layout_width="417dp"
             android:layout_height="72dp"
             android:background="#2196F3"
-            app:menu="@menu/menu_home">
+            app:menu="@menu/menu_home"/>
 
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
         <ImageView
             android:id="@+id/backgroundImageView"
-            android:layout_width="528dp"
-            android:layout_height="699dp"
-            android:paddingLeft="280dp"
+            android:layout_width="650dp"
+            android:layout_height="676dp"
+            android:paddingLeft="220dp"
             android:paddingTop="0dp"
-            android:paddingRight="380dp"
+            android:paddingRight="450dp"
             android:paddingBottom="0dp"
             android:scaleType="centerCrop"
             android:src="@drawable/bg"
-            tools:layout_editor_absoluteX="-6dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -81,64 +81,78 @@
             app:layout_constraintTop_toBottomOf="@+id/textView5"
             app:layout_constraintVertical_bias="0.0" />
 
+        <LinearLayout
+            android:id="@+id/footerLayout1"
+            android:layout_width="411dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="24dp"
+            android:background="#002395"
+            android:orientation="horizontal"
+            android:padding="80dp"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundImageView"
+            tools:layout_editor_absoluteX="-3dp">
 
-        <RelativeLayout
-            android:layout_width="415dp"
-            android:layout_height="1630dp"
-            tools:layout_editor_absoluteX="-4dp"
-            tools:layout_editor_absoluteY="19dp">
+            <TextView
+                android:layout_width="267dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:text="Contact Us                                                                                               Call Us 012-345-678                                                                                                                            Address: Dagupan City"
 
-            <LinearLayout
-                android:id="@+id/footerLayout1"
-                android:layout_width="match_parent"
-                android:layout_height="113dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="2dp"
-                android:layout_marginLeft="2dp"
-                android:layout_marginEnd="-2dp"
-                android:layout_marginRight="-2dp"
-                android:layout_marginBottom="80dp"
-                android:background="#002395"
-                android:orientation="horizontal"
-                android:padding="80dp">
-
-                <TextView
-                    android:id="@+id/textView23"
-                    android:layout_width="250dp"
-                    android:layout_height="295dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="Your TextView Texttttttt"
-                    android:textAlignment="center"
-                    android:textColor="@color/black" />
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="23dp"
+                tools:layout_editor_absoluteY="316dp" />
 
 
-            </LinearLayout>
+        </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/footerLayout2"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_alignStart="@+id/footerLayout1"
-                android:layout_alignLeft="@+id/footerLayout1"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="-5dp"
-                android:layout_marginEnd="0dp"
-                android:layout_marginRight="0dp"
-                android:layout_marginBottom="30dp"
-                android:background="#000080"
-                android:orientation="horizontal"
-                android:padding="80dp">
+        <LinearLayout
+            android:id="@+id/footerLayout2"
+            android:layout_width="416dp"
+            android:layout_height="45dp"
+            android:layout_alignStart="@+id/footerLayout1"
+            android:layout_alignLeft="@+id/footerLayout1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#000080"
+            android:orientation="horizontal"
+            android:padding="80dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/footerLayout1"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="@+id/footerLayout1"
+            app:layout_constraintTop_toBottomOf="@+id/footerLayout1"
+            app:layout_constraintVertical_bias="0.0">
 
-            </LinearLayout>
-        </RelativeLayout>
+            <TextView
+                android:layout_width="269dp"
+                android:layout_height="33dp"
+                android:layout_gravity="center"
+                android:text="© SIBOL 2024"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="219dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:text="Next Page"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.719" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

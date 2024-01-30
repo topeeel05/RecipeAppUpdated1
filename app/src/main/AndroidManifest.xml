@@ -13,6 +13,33 @@
         android:theme="@style/Theme.MyApplicationnn"
         tools:targetApi="31">
         <activity
+            android:name=".faccbp_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".seeb_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".feb_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".eb_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bp_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bo_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".BreakfastCategory"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPage"
+            android:exported="false" />
+        <activity
+            android:name=".SecondPage"
+            android:exported="false" />
+        <activity
             android:name=".ScrollingActivity"
             android:exported="false"
             android:label="@string/title_activity_scrolling"
