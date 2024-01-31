@@ -162,7 +162,6 @@
         android:text="Breakfast"
         android:textAlignment="center"
         android:textColor="#2196F3"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
@@ -177,6 +176,7 @@
         android:layout_height="19dp"
         android:text="Beef"
         android:textAlignment="center"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
@@ -214,6 +214,7 @@
         android:layout_height="20dp"
         android:text="Chicken"
         android:textAlignment="center"
+        android:textColor="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"

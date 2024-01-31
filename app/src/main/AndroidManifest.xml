@@ -13,6 +13,36 @@
         android:theme="@style/Theme.MyApplicationnn"
         tools:targetApi="31">
         <activity
+            android:name=".ap_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".chickencategory"
+            android:exported="false" />
+        <activity
+            android:name=".chicken_category"
+            android:exported="false" />
+        <activity
+            android:name=".beefwellington_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".beefmechado_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".beeflomein_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".beefdumpling_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bc_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bbpr_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".beef_category"
+            android:exported="false" />
+        <activity
             android:name=".faccbp_recipe"
             android:exported="false" />
         <activity

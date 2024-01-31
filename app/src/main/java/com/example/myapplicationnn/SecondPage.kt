@@ -36,5 +36,21 @@ class SecondPage : AppCompatActivity() {
 
         }
 
+        val beef = findViewById<TextView>(R.id.textView9)
+        beef.setOnClickListener {
+            val Intent = Intent (this,beef_category::class.java)
+            startActivity(Intent)
+
+        }
+
+
+        val chicken = findViewById<TextView>(R.id.textView13)
+        chicken.setOnClickListener {
+            val Intent = Intent (this,chickencategory::class.java)
+            startActivity(Intent)
+
+        }
+
+
     }
 }
