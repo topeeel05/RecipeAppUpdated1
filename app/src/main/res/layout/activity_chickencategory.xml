@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    tools:context=".chickencategory">
+
+  <GridLayout
+      android:layout_width="0dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      android:layout_margin="10dp"
+      android:columnCount="2"
+      android:rowCount="3"
+      android:layout_height="0dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:cardCornerRadius="15dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardElevation="0dp"
+        android:layout_margin="5dp">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Ayam Percik"
+          android:textSize="16dp"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="25dp">
+      </TextView>
+      <TextView
+          android:id="@+id/rm1"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="READ MORE"
+          android:textSize="16dp"
+          android:textColor="#2196F3"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="2dp">
+
+      </TextView>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ap" />
+      </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Brown Stew Chicken"
+          android:textSize="16dp"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="25dp">
+      </TextView>
+      <TextView
+          android:id="@+id/rm2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="READ MORE"
+          android:textSize="16dp"
+          android:textColor="#2196F3"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="2dp">
+
+      </TextView>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/bsc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="150dp"/>
+      </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:cardCornerRadius="15dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardElevation="0dp"
+        android:layout_margin="5dp">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Chicken Basquaise"
+          android:textSize="16dp"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="25dp">
+      </TextView>
+      <TextView
+          android:id="@+id/rm3"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="READ MORE"
+          android:textSize="16dp"
+          android:textColor="#2196F3"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="2dp">
+
+      </TextView>
+
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cb" />
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="0dp">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Chicken Couscous"
+          android:textSize="16dp"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="25dp">
+      </TextView>
+      <TextView
+          android:id="@+id/rm4"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="READ MORE"
+          android:textSize="16dp"
+          android:textColor="#2196F3"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="2dp">
+
+      </TextView>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/cc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="150dp"/>
+      </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:cardCornerRadius="15dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        app:cardElevation="0dp"
+        android:layout_margin="5dp">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="Chicken Handi"
+          android:textSize="16dp"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="25dp">
+      </TextView>
+      <TextView
+          android:id="@+id/rm5"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="READ MORE"
+          android:textSize="16dp"
+          android:textColor="#2196F3"
+          android:gravity="bottom|center_horizontal"
+          android:paddingBottom="2dp">
+
+      </TextView>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="150dp"
+            android:src="@drawable/ch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="150dp"/>
+
+      </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+  </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

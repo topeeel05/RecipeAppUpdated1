@@ -51,6 +51,49 @@ class SecondPage : AppCompatActivity() {
 
         }
 
+        val dessert = findViewById<TextView>(R.id.textView3)
+        dessert.setOnClickListener {
+            val Intent = Intent (this,DessertCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+        val goat = findViewById<TextView>(R.id.textView10)
+        goat.setOnClickListener {
+            val Intent = Intent (this,GoatCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+        val lamb = findViewById<TextView>(R.id.textView14)
+        lamb.setOnClickListener {
+            val Intent = Intent (this,LambCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+        val vege = findViewById<TextView>(R.id.textView4)
+        vege.setOnClickListener {
+            val Intent = Intent (this,VegetarianCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+        val pork = findViewById<TextView>(R.id.textView11)
+        pork.setOnClickListener {
+            val Intent = Intent (this,PorkCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+        val sf = findViewById<TextView>(R.id.textView15)
+        sf.setOnClickListener {
+            val Intent = Intent (this,SeafoodCategory::class.java)
+            startActivity(Intent)
+
+        }
+
+
 
     }
 }

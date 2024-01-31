@@ -13,6 +13,108 @@
         android:theme="@style/Theme.MyApplicationnn"
         tools:targetApi="31">
         <activity
+            android:name=".fishfofos_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".escovitchfish_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".cajunfishtacos_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bakedsalmon_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".SeafoodCategory"
+            android:exported="false" />
+        <activity
+            android:name=".coddledporkcider_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".boxtybreakfast_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bigoshuntersstew_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bbqporksloppyjoes_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".bubblesandsqueak_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".PorkCategory"
+            android:exported="false" />
+        <activity
+            android:name=".shakshuka_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".oliviersalad_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".koshari_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".fulmedames_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".crispyeggplant_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".VegetarianCategory"
+            android:exported="false" />
+        <activity
+            android:name=".lambbiryani_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".lamblemonsouvlaki_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".keleyazaara_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".kapsalon_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".LambCategory"
+            android:exported="false" />
+        <activity
+            android:name=".mbuzichoma_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".GoatCategory"
+            android:exported="false" />
+        <activity
+            android:name=".chocolatesouffle"
+            android:exported="false" />
+        <activity
+            android:name=".chocchippecanpie_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".canadianbuttertarts_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".battenbergcake_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".apambalik_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".DessertCategory"
+            android:exported="false" />
+        <activity
+            android:name=".chickenhandi_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".chickencouscous_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".chickenbasquaise_recipe"
+            android:exported="false" />
+        <activity
+            android:name=".brownstewchicken_recipe"
+            android:exported="false" />
+        <activity
             android:name=".ap_recipe"
             android:exported="false" />
         <activity
