@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="407dp"
-        android:layout_height="258dp"
-        android:src="@drawable/bo"
+        android:layout_width="273dp"
+        android:layout_height="212dp"
+        android:src="@drawable/pigar1"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"
-        tools:layout_editor_absoluteX="-1dp" />
+        app:layout_constraintVertical_bias="0.227" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="296dp"
-        android:layout_height="53dp"
-        android:text="BREAD OMELETTE"
+        android:layout_width="408dp"
+        android:layout_height="39dp"
+        android:text="PIGAR PIGAR (Dagupan City)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <TextView
         android:id="@+id/textView2"
@@ -110,17 +111,23 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.483" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="372dp"
-        android:layout_height="27dp"
+        android:layout_width="408dp"
+        android:layout_height="51dp"
         android:layout_marginTop="8dp"
-        android:text="Bread - 2    |    Egg - 2   |  Salt - 0.5"
+        android:text="1/2 kilo sirloin beef or carabeef |
+2 pcs medium white onions sliced |
+cabbage |
+1 tsp soy sauce |
+1 1/4 tsp magic sarap |
+1 tsp iodized salt |
+2 cups cooking oil for deep frying"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.504"
@@ -131,24 +138,29 @@
         android:id="@+id/textView18"
         android:layout_width="119dp"
         android:layout_height="28dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:text="Instructions"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="158dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="8dp"
-        android:text="Make And Enjoy"
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Slice the beef as thinly as possible in bite size pieces. Put the beef in the bowl and add magic sarap, soy sauce, salt and black pepper. Mix to coat the meat with the seasoning. Let is stand for an hour.
+Heat cooking oil in a frying pan and deep fry the marinated beef for 5 minutes. Stir the meat continuously while cooking.
+After 5 minutes. add the cabbage and onions and stir the veggies with the meat for 1 minute with continuous stirring and turning.
+After a minute scoop out the meat and veggies using a strainer. Let it drip the oil for a while and gently press it with a spatula to help drain the excess oil.
+"
         android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

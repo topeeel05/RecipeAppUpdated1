@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Mbuzi Choma"
+                android:text="Lapaz Batchoy"
                 android:textSize="16dp"
                 android:gravity="bottom|center_horizontal"
                 android:paddingBottom="25dp">
@@ -51,11 +51,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="176dp"
+                    android:layout_height="151dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/img_5" />
+                    android:src="@drawable/lapazbatchoy" />
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>

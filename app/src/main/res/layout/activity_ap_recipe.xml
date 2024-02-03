@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".beefwellington_recipe">
+    tools:context=".ap_recipe">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="213dp"
-        android:src="@drawable/ap"
+        android:layout_width="273dp"
+        android:layout_height="212dp"
+        android:src="@drawable/bm"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="398dp"
-        android:layout_height="42dp"
-        android:text="AYAM PERCIK"
+        android:layout_width="413dp"
+        android:layout_height="39dp"
+        android:text="BEEF MECHADO (Manila)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.104" />
 
     <TextView
         android:id="@+id/textView2"
@@ -113,18 +114,18 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.476" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="412dp"
+        android:layout_width="408dp"
         android:layout_height="51dp"
-        android:layout_marginTop="4dp"
-        android:text="Chicken Thighs - 6 | Challots - 16 | Ginger - 1 1/2 | Garlic Clove - 6 | Cayenne Pepper - 8 | Turmeric - 2 Tbs | Coriander - 1 1/2 | Cumin - 1 1/2 | Tamarind Paste - 2 Tbs | Coconut Milk - 1 Can
-"
+        android:layout_marginTop="8dp"
+        android:text="Garlic - 3 Cloves | Onion | Beef - 2 Lbs | Tomato Puree - 8 Ounces
+ | Olive Oil - 3 Tbs | Potatoes | Soy Sauce - 1/4 Cup | Black Pepper - 1/2 Tsp | Bay Leaves - 2 | Salt - To Taste"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -137,20 +138,20 @@
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="412dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="8dp"
-        android:text="In A Blender, Add The Ingredients For The Spice Paste And Blend Until Smooth. Over Medium Heat, Pour The Spice Paste In A Skillet Or Pan And Fry For 10 Minutes Until Fragrant. Add Water Or Oil 1 Tablespoon At A Time If The Paste Becomes Too Dry. Don't Burn The Paste. Lower The Fire Slightly If Needed. Add The Cloves, Cardamom, Tamarind Pulp, Coconut Milk, Water, Sugar And Salt. Turn The Heat Up And Bring The Mixture To Boil.  Roast For 35-45 Minutes Or Until Internal Temp Of The Thickest Part Of Chicken Is At Least 175 F. Let Chicken Rest For 5 Minutes. Brush The Chicken With Some Of The Oil. Serve Chicken With The Sauce Over Steamed Rice."
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Make The Beef Tenderloin Marinade By Combining Soy Sauce, Vinegar, Ginger, Garlic, Sesame Oil, Olive Oil, Sugar, Salt, And Ground Black Pepper In A Large Bowl. Mix Well. 1. Add The Cubed Beef Tenderloin To The Bowl With The Beef Tenderloin Marinade. Gently Toss To Coat The Beef. Let It Stay For 1 Hour. 2. Using A Metal Or Bamboo Skewer, Assemble The Beef Kebob By Skewering The Vegetables And Marinated Beef Tenderloin. 3. Heat-Up The Grill And Start Grilling The Beef Kebobs For 3 Minutes Per Side. This Will Give You A Medium Beef That Is Juicy And Tender On The Inside. Add More Time If You Want Your Beef Well Done, But It Will Be Less Tender. "
         android:textAlignment="center"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

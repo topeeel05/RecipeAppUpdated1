@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Apam Balik"
+                android:text="Lumpiang Buko"
                 android:textSize="16dp"
                 android:gravity="bottom|center_horizontal"
                 android:paddingBottom="25dp">
@@ -51,11 +51,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="175dp"
+                    android:layout_height="191dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/img" />
+                    android:src="@drawable/lumpiabuko" />
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
@@ -70,82 +70,9 @@
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Battenberg Cake"
-                android:textSize="16dp"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="25dp">
-            </TextView>
-            <TextView
-                android:id="@+id/rm2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="READ MORE"
-                android:textSize="16dp"
-                android:textColor="#2196F3"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="2dp">
 
-            </TextView>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_width="150dp"
-                    android:src="@drawable/img_1"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="150dp"/>
-            </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_height="0dp"
-            android:layout_width="0dp"
-            app:cardCornerRadius="15dp"
-            android:layout_rowWeight="1"
-            android:layout_columnWeight="1"
-            app:cardElevation="0dp"
-            android:layout_margin="5dp">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Canadian Butter Tarts"
-                android:textSize="16dp"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="25dp">
-            </TextView>
-            <TextView
-                android:id="@+id/rm3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="READ MORE"
-                android:textSize="16dp"
-                android:textColor="#2196F3"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="2dp">
-
-            </TextView>
-
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/img_2" />
-            </RelativeLayout>
-        </androidx.cardview.widget.CardView>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
@@ -156,95 +83,48 @@
             app:cardCornerRadius="15dp"
             app:cardElevation="0dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Choc Chip Pecan Pie"
-                android:textSize="16dp"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="25dp">
-            </TextView>
-            <TextView
-                android:id="@+id/rm4"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="READ MORE"
-                android:textSize="16dp"
-                android:textColor="#2196F3"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="2dp">
 
-            </TextView>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_width="150dp"
-                    android:src="@drawable/img_3"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="150dp"/>
-            </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_height="0dp"
             android:layout_width="0dp"
-            app:cardCornerRadius="15dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardElevation="0dp"
-            android:layout_margin="5dp">
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Chocolate Souffle"
-                android:textSize="16dp"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="25dp">
-            </TextView>
-            <TextView
-                android:id="@+id/rm5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="READ MORE"
-                android:textSize="16dp"
-                android:textColor="#2196F3"
-                android:gravity="bottom|center_horizontal"
-                android:paddingBottom="2dp">
 
-            </TextView>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_width="150dp"
-                    android:src="@drawable/img_4"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_height="150dp"/>
-
-            </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:layout_height="0dp"
             android:layout_width="0dp"
-            app:cardCornerRadius="15dp"
+            android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardElevation="0dp"
-            android:layout_margin="5dp">
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
 
 
         </androidx.cardview.widget.CardView>
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
 
 
+
+        </androidx.cardview.widget.CardView>
 
     </GridLayout>
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".canadianbuttertarts_recipe">
+    tools:context=".mbuzichoma_recipe">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="213dp"
-        android:src="@drawable/img_5"
+        android:layout_width="326dp"
+        android:layout_height="186dp"
+        android:src="@drawable/lapazbatchoy"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="398dp"
-        android:layout_height="42dp"
-        android:text="MBUZI CHOMA"
+        android:layout_width="413dp"
+        android:layout_height="39dp"
+        android:text="LAPAZ BATCHOY (Iloilo City)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <TextView
         android:id="@+id/textView2"
@@ -110,26 +111,30 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.443" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="412dp"
+        android:layout_width="408dp"
         android:layout_height="51dp"
-        android:layout_marginTop="4dp"
-        android:text="Goat Meat - 1 Kg |
-Corn Flour - 1 Kg |
-Tomatoes - 2 |
-Salt - Pinch |
-Onion - 1 |
-Green Chilli - 1 |
-Coriander Leaves - 1 Bunch"
+        android:layout_marginTop="8dp"
+        android:text="1 lb miki noodles boiled |
+1 lb pork |
+1 lb pig's intentesines |
+1/4 lb pig liver |
+teaspoons salt |
+ground black pepper |
+onion powder |
+1 cup pork cracklings chicharon |
+spring onion chopped |
+7 cups water
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -142,20 +147,29 @@ Coriander Leaves - 1 Bunch"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="412dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="8dp"
-        android:text="Roast Meat Over Medium Heat For 50 Minutes And Salt It As You Turn It. 2. Steps For Ugali: Bring The Water And Salt To A Boil In A Heavy-Bottomed Saucepan. Stir In The Cornmeal Slowly, Letting It Fall Through The Fingers Of Your Hand. 3. Reduce Heat To Medium-Low And Continue Stirring Regularly, Smashing Any Lumps With A Spoon, Until The Mush Pulls Away From The Sides Of The Pot And Becomes Very Thick, About 10 Minutes. 4.Remove From Heat And Allow To Cool. 5. Place The Ugali Into A Large Serving Bowl. Wet Your Hands With Water, Form A Ball And Serve. 6. Steps For Kachumbari: Mix The Tomatoes, Onions, Chili And Coriander Leaves In A Bowl."
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Boil water in a cooking pot.
+Put-in salt, sugar, onion powder, ground black pepper, and shrimp paste. Cook for a minute.
+Add the pork and cook until tender (about 30 to 45 minutes)
+Put-in the intestines and liver, and then cook for 6 to 10 minutes.
+Remove the pork, liver, and intestine from the broth (caldo). Set aside.
+Slice the pork into strips.
+Arranged the cooked miki noodles in a single serving bowl.
+Place the strips of pork, liver, and intestine on top of the miki noodles.
+Pour the broth in the bowl, and then garnish with spring onions and toasted garlic.
+Serve hot. Share and enjoy!"
         android:textAlignment="center"
-        android:textSize="11dp"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

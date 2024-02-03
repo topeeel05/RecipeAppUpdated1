@@ -81,7 +81,7 @@
         android:id="@+id/imageView"
         android:layout_width="409dp"
         android:layout_height="213dp"
-        android:src="@drawable/img_10"
+        android:src="@drawable/bukopie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.237"
@@ -91,7 +91,7 @@
         android:id="@+id/textView"
         android:layout_width="398dp"
         android:layout_height="42dp"
-        android:text="CRISPY EGGPLANT"
+        android:text="BUKO PIE (Santa Cruz)"
         android:textAlignment="center"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,13 +120,13 @@
         android:layout_width="412dp"
         android:layout_height="51dp"
         android:layout_marginTop="4dp"
-        android:text="Egg Plants - 1 Large |
-Breadcrumbs - 1 Cup |
-Sesame Seed - 50g |
-Eggs - 2 |
-Salt - To Taste |
-Pepper - To Taste |
-Vegetable Oil - For Frying
+        android:text="2 cups all-purpose flour |
+1/3 cup butter |
+1 teaspoon salt |
+1/3 cup vegetable shortening |
+3/4 cup granulated white sugar |
+1/2 cup cornstarch diluted |
+1/2 cup evaporated milk
 "
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
@@ -152,7 +152,14 @@ Vegetable Oil - For Frying
         android:layout_width="412dp"
         android:layout_height="131dp"
         android:layout_marginTop="8dp"
-        android:text="Slice Eggplant Into 1 Cm (0.4-Inch) Slices. Place Them In A Bowl And Sprinkle Them With Salt. Allow Them To Sit For 30 Minutes To Render Some Of Their Liquid And Bitterness. 2. After 30 Minutes Wash Eggplant Slices From Salt And Pat Dry With A Kitchen Towel. 3. In A Large Bowl/Plate Place Breadcrumbs And Sesame Seeds. In Another Bowl Beat 2 Eggs With Pinch Salt And Pepper. 4. Heal Oil In A Large Skillet Over High Heat. 5. Dip Eggplant Slices In Egg, Then In Crumbs, And Place In Hot Oil. Fry 2 To 3 Minutes On Each Side, Or Until Golden Brown. Drain On A Paper Towel."
+        android:text="Make the filling by heating a saucepan and pour-in the milk. Let boil.
+Add the granulated white sugar and stir.
+Put-in the young coconut meat and cook for 3 minutes.
+Pour-in the cornstarch diluted in young coconut water and stir thoroughly while cooking. Cook until the texture thickens.
+Turn-off the heat and allow the mixture to cool down.
+Preheat oven to 375 degrees Fahrenheit.
+Create holes on the secondary crust using a fork.
+Bake for 45 to 55 minutes or until the color turns golden brown. Note: Baking time may vary; make sure to check the color of the crust to determine if baking is complete."
         android:textAlignment="center"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"

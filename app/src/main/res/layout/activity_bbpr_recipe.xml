@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="213dp"
-        android:src="@drawable/bbpr"
+        android:layout_width="273dp"
+        android:layout_height="212dp"
+        android:src="@drawable/sinuglaw"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="398dp"
-        android:layout_height="42dp"
-        android:text="BEEF BRISKET ROAST"
+        android:layout_width="411dp"
+        android:layout_height="39dp"
+        android:text="SINUGLAW (Cagayan De Oro)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.11" />
 
     <TextView
         android:id="@+id/textView2"
@@ -113,18 +114,24 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.476" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="400dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="4dp"
-        android:text="Beef Brisket - 4-5 Pound  |  Salt - Dash  |  Onion - 3  |  Thyme - 1 Sprig  |  Rosemary - 1 Sprig  |  Beef Stock - 2 Cups  |  Mustard
-"
+        android:layout_width="408dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:text="ginger |
+onions |
+leeks |
+1/2 kilo fresh tuna fillet cut into cubes |
+1/2 kilo pork chops seasoned with salt, pepper and calamansi |
+2 pcs native lime |
+1 pc tabon-tabon |
+5 Tbsp coconut vinegar"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -137,20 +144,25 @@
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="405dp"
-        android:layout_height="161dp"
-        android:layout_marginTop="8dp"
-        android:text=" Salt The Brisket Well And Let It Sit At Room Temperature For 30 Minutes. 2 Sear The Brisket: You'll Need An Oven-Proof, Thick-Bottomed Pot With A Cover, Or Dutch Oven, That Is Just Wide Enough To Hold The Brisket Roast With A Little Room For The Onions. Pat The Brisket Dry And Place It, Fatty Side Down, Into The Pot And Place It On Medium High Heat. Cook For 5-8 Minutes, Lightly Sizzling, Until The Fat Side Is Nicely Browned. Serve With The Onions, Carrots And Gravy. Serve With Mashed, Roasted Or Boiled Potatoes, Egg Noodles Or Polenta."
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Grill pork chops until well done. Slice into cubes and set aside.
+In a small bowl, combine ginger, onions, leeks, chili pepper, fresh fish and grilled pork. Add in about 300 ml vinegar.
+Cut native lime and squeeze the juice into the mixture.
+In a separate bowl, scoop tabon-tabon into small pieces with a spoon. Add about 5 tablespoon vinegar.
+Toss vinegar mixture into the sinuglaw mix. (In case you can't find tabon tabon , you can use use grated coconut. But the procedure is slightly different, you have to mix the grated coconut on the tuna fillet cubes before tossing it in the sinuglaw.)
+Then mix all the ingredients together. Season with salt and pepper. Chill before serving."
         android:textAlignment="center"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

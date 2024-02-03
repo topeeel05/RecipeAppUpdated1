@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".beefwellington_recipe">
+    tools:context=".apambalik_recipe">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="213dp"
-        android:src="@drawable/img"
+        android:layout_width="329dp"
+        android:layout_height="202dp"
+        android:src="@drawable/lumpiabuko"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="398dp"
-        android:layout_height="42dp"
-        android:text="APAM BALIK"
+        android:layout_width="413dp"
+        android:layout_height="39dp"
+        android:text="LUMPIANG BUKO (Cabanatuan City)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <TextView
         android:id="@+id/textView2"
@@ -110,20 +111,28 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.443" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="412dp"
+        android:layout_width="408dp"
         android:layout_height="51dp"
-        android:layout_marginTop="4dp"
-        android:text="Milk - 200ml | Oil - 60ml | Eggs - 2 | Flour - 1600g | Baking Powder - 3 Tsp | Salt - 1/2 Tsp | Unsalted Butter - 25g | Sugar - 45g | Peanut Butter - 3 Tbs"
+        android:layout_marginTop="8dp"
+        android:text="Oil |
+2 cloves Garlic minced |
+2 tablespoons red onion |
+carrot thinly sliced |
+2 cups buko thinly sliced |
+kalabasa thinly sliced |
+celery stalk thinly sliced |
+mushrooms sliced |
+Lumpia wrappers"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -136,20 +145,23 @@
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="412dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="8dp"
-        android:text="Mix Milk, Oil And Egg Together. Sift Flour, Baking Powder And Salt Into The Mixture. Stir Well Until All Ingredients Are Combined Evenly. Spread Some Batter Onto The Pan. Spread A Thin Layer Of Batter To The Side Of The Pan. Cover The Pan For 30-60 Seconds Until Small Air Bubbles Appear. Add Butter, Cream Corn, Crushed Peanuts And Sugar Onto The Pancake. Fold The Pancake Into Half Once The Bottom Surface Is Browned. Cut Into Wedges And Best Eaten When It Is Warm."
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Heat oil in a frying pan over medium heat. Saute onion and garlic until fragrant. Add carrots, celery, kalabasa, and mushrooms; cook for 1 minute.
+Add the young coconut meat and cook for 5 minutes. Season with salt and pepper. Remove from heat.
+Place 1 tablespoon of the buko mixture on a lumpia wrapper. Roll and brush edges with egg to seal. Repeat with remaining filling.
+Heat oil in a frying pan over medium-high heat. Fry lumpia for 2 minutes on each side or until golden brown. Drain on paper towels."
         android:textAlignment="center"
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

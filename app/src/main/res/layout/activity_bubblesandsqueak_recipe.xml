@@ -81,7 +81,7 @@
         android:id="@+id/imageView"
         android:layout_width="409dp"
         android:layout_height="213dp"
-        android:src="@drawable/img_15"
+        android:src="@drawable/sutukil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.237"
@@ -91,9 +91,9 @@
         android:id="@+id/textView"
         android:layout_width="398dp"
         android:layout_height="42dp"
-        android:text="BUBBLE AND SQUEAK"
+        android:text="SUTUKIL (Cebu City)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -120,12 +120,15 @@
         android:layout_width="412dp"
         android:layout_height="51dp"
         android:layout_marginTop="4dp"
-        android:text="Butter - 1 Tbs |
-Bacon - 4 |
-Onion - 1 Finely Sliced |
-Garlic Clove - 1 Chopped |
-Brussels Sprouts - 20 |
-Potatoes - 400g"
+        android:text="1/2 kilo fresh fish sliced into serving pieces
+1/2 kilo shrimp, peeled and deveined
+1/2 cup vinegar
+1/2 cup calamansi juice
+1/4 cup ginger
+1/4 cup onion
+1/4 cup soy sauce
+1/4 cup cooking oil
+"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.501"
@@ -150,9 +153,16 @@ Potatoes - 400g"
         android:layout_width="412dp"
         android:layout_height="131dp"
         android:layout_marginTop="8dp"
-        android:text="Melt The Fat In A Non-Stick Pan, Allow It To Get Nice And Hot, Then Add The Bacon. As It Begins To Brown, Add The Onion And Garlic. Next, Add The Sliced Sprouts Or Cabbage And Let It Colour Slightly. All This Will Take 5-6 Mins. Next, Add The Potato. Work Everything Together In The Pan And Push It Down So That The Mixture Covers The Base Of The Pan – Allow The Mixture To Catch Slightly On The Base Of The Pan Before Turning It Over And Doing The Same Again. It’s The Bits Of Potato That Catch In The Pan That Define The Term ‘Bubble And Squeak’, So Be Brave And Let The Mixture Colour. Cut Into Wedges And Serve."
-        android:textSize="12dp"
+        android:text="In a large bowl, combine vinegar, calamansi juice, ginger, sugar, and salt. Add the fish and marinate for at least 30 minutes.
+Grill the marinated fish until cooked.
+
+In a separate pot, bring water to a boil. Add onion, tomato, green onion, cilantro, and calamansi. Simmer for 5 minutes.
+Add the shrimp to the pot and cook until pink.
+In a separate pan, heat oil and sauté garlic until brown.
+Add the grilled fish and shrimp to the pan with the soy sauce mixture. Simmer for a few minutes.
+Serve the grilled fish, shrimp stew, and kinilaw (raw fish salad) on one plate. Enjoy!"
         android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/textView18"

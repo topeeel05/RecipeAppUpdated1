@@ -18,40 +18,6 @@ class BreakfastCategory : AppCompatActivity() {
 
         }
 
-        val readmore2 = findViewById<TextView>(R.id.rm2)
-        readmore2.setOnClickListener {
-            val Intent = Intent (this,bp_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore3 = findViewById<TextView>(R.id.rm3)
-        readmore3.setOnClickListener {
-            val Intent = Intent (this,eb_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore4 = findViewById<TextView>(R.id.rm4)
-        readmore4.setOnClickListener {
-            val Intent = Intent (this,feb_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore5 = findViewById<TextView>(R.id.rm5)
-        readmore5.setOnClickListener {
-            val Intent = Intent (this,seeb_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore6 = findViewById<TextView>(R.id.rm6)
-        readmore6.setOnClickListener {
-            val Intent = Intent (this,faccbp_recipe::class.java)
-            startActivity(Intent)
-
-        }
 
     }
 }

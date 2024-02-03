@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".boxtybreakfast_recipe">
+    tools:context=".bakedsalmon_recipe">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -81,7 +81,7 @@
         android:id="@+id/imageView"
         android:layout_width="409dp"
         android:layout_height="213dp"
-        android:src="@drawable/img_20"
+        android:src="@drawable/kulawongtalong"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.237"
@@ -91,9 +91,9 @@
         android:id="@+id/textView"
         android:layout_width="398dp"
         android:layout_height="42dp"
-        android:text="BAKED SALMON"
+        android:text="KULAWONG TALONG (Calamba)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
@@ -120,13 +120,13 @@
         android:layout_width="412dp"
         android:layout_height="51dp"
         android:layout_marginTop="4dp"
-        android:text="Fennel - 2 Medium |
-Parsley - 2 Tbs Chopped |
-Lemon - Juice Of 1 |
-Cherry Tomatoes - 175g |
-Olive Oil - 1 Tbs |
-Salmon - 350g |
-Black Olives - To Serve |
+        android:text="2 packages frozen grated coconut
+1 cup rice vinegar
+2 cups canned coconut milk
+5 cloves garlic peeled
+1 knob fresh ginger peeled
+8 whole Asian eggplants
+1 teaspoon salt
 "
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
@@ -152,9 +152,10 @@ Black Olives - To Serve |
         android:layout_width="412dp"
         android:layout_height="131dp"
         android:layout_marginTop="8dp"
-        android:text="Heat Oven To 180C/Fan 160C/Gas 4. Trim The Fronds From The Fennel And Set Aside. Cut The Fennel Bulbs In Half, Then Cut Each Half Into 3 Wedges. Cook In Boiling Salted Water For 10 Mins, Then Drain Well. Chop The Fennel Fronds Roughly, Then Mix With The Parsley And Lemon Zest. Spread The Drained Fennel Over A Shallow Ovenproof Dish, Then Add The Tomatoes. Drizzle With Olive Oil, Then Bake For 10 Mins. Nestle The Salmon Among The Veg, Sprinkle With Lemon Juice, Then Bake 15 Mins More Until The Fish Is Just Cooked. Scatter Over The Parsley And Serve."
-        android:textSize="12dp"
+        android:text="Preheat the oven to 400 F degrees. Spread the squeezed, grated coconut on a large baking sheet and bake at 400 F for 12 to 15 minutes or till dark brown. Place the eggplants under a broiler. Broil until the skin is charred and the interior is soft, approximately 20 to 25 minutes.
+ Spread the sliced bitter melon or ampalaya over the cheesecloth or heavy paper towels Serve hot or cold, both ways is a terrific side to any grilled dish or is good as a meal in itself.."
         android:textAlignment="center"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/textView18"

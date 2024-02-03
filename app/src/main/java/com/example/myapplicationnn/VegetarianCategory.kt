@@ -17,31 +17,5 @@ class VegetarianCategory : AppCompatActivity() {
 
         }
 
-        val readmore2 = findViewById<TextView>(R.id.rm2)
-        readmore2.setOnClickListener {
-            val Intent = Intent (this,fulmedames_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore3 = findViewById<TextView>(R.id.rm3)
-        readmore3.setOnClickListener {
-            val Intent = Intent (this,koshari_recipe::class.java)
-            startActivity(Intent)
-
-        }
-
-        val readmore4 = findViewById<TextView>(R.id.rm4)
-        readmore4.setOnClickListener {
-            val Intent = Intent (this,oliviersalad_recipe::class.java)
-            startActivity(Intent)
-
-        }
-        val readmore5 = findViewById<TextView>(R.id.rm5)
-        readmore5.setOnClickListener {
-            val Intent = Intent (this,shakshuka_recipe::class.java)
-            startActivity(Intent)
-
-        }
     }
 }

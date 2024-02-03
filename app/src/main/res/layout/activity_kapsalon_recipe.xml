@@ -79,27 +79,28 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="409dp"
-        android:layout_height="213dp"
-        android:src="@drawable/img_6"
+        android:layout_width="326dp"
+        android:layout_height="186dp"
+        android:src="@drawable/pancithabhab"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="398dp"
-        android:layout_height="42dp"
-        android:text="KAPSALON"
+        android:layout_width="413dp"
+        android:layout_height="39dp"
+        android:text="PANCIT HABHAB (Quenzon City)"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <TextView
         android:id="@+id/textView2"
@@ -110,27 +111,30 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.443" />
 
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="412dp"
+        android:layout_width="408dp"
         android:layout_height="51dp"
-        android:layout_marginTop="4dp"
-        android:text="Fries - 250 Grams |
-Doner Meat - 500 Grams |
-Garlic Sauce - Topping |
-Hotsauce - Topping |
-Lettuce - 1 Bulb |
-Tomato - 1 |
-Cucumber - 3rd |
-Gouda Cheese - 100 Grams"
+        android:layout_marginTop="8dp"
+        android:text="1 lb. Miki Lucban |
+1/2 lb. pork belly thinly sliced |
+4 to 5 cups beef broth |
+shrimp cleaned |
+chayote sliced |
+1 cup bok choy |
+1 cup snap pea |
+shredded carrots |
+onion sliced |
+cooking oil |
+soy sauce"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -143,20 +147,29 @@ Gouda Cheese - 100 Grams"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/textView17"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="412dp"
-        android:layout_height="131dp"
-        android:layout_marginTop="8dp"
-        android:text="Heat Oil In A Pan And Fry The Strips For 6 Minutes Until It's Ready. Bake The Fries Until Golden Brown In A Deep Fryrer. When Ready Transfer To A Backing Dish. Make Sure The Fries Are Spread Over The Whole Dish. Cover The Fries With A New Layer Of Meat And Spread Evenly. Add A Layer Of Cheese Over The Meat. You Can Also Use Grated Cheese. When Done Put In The Oven For A Few Minutes Until The Cheese Is Melted. Chop The Lettuce, Tomato And Cucumber In Small Pieces And Mix Together. For A Basic Salad. As Extra You Can Add Olives Jalapenos And A Red Union. Dived The Salad Over The Dish And Serve With Garlicsauce And Hot Sauce"
+        android:layout_width="410dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="4dp"
+        android:text="Heat 3 tablespoons of cooking oil in a wide cooking pot.
+Stir-fry the chayote, snap pea, carrots, and bok choy for 3 to 4 minutes. Set aside.
+On the same cooking pot, add remaining oil. Put-in the pork slices. Cook for 5 minutes or until the oil from the pork comes out.
+Put-in the onion and garlic. Cook for 2 minutes.
+Add the liver. Stir.
+Add the shrimp. Cook each side for 1 minute. Remove the shrimp and then set aside.
+Sprinkle the ground black pepper and pour-in soy sauce.
+Pour-in the beef broth. Let boil. Simmer for 20 minutes.
+Put-in the Miki Lucban noodles. Cook while stirring until the noodles absorbs the liquid.
+Add half of the stir-fried vegetables."
         android:textAlignment="center"
-        android:textSize="11dp"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView18"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/textView18"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>
