@@ -20,13 +20,6 @@ class SecondPage : AppCompatActivity() {
 
         }
 
-        val forthActbutton = findViewById<Button>(R.id.button4)
-        forthActbutton.setOnClickListener {
-            val Intent = Intent (this,ThirdPage::class.java)
-            startActivity(Intent)
-
-        }
-
 
 
         val breakfast = findViewById<TextView>(R.id.textView8)
