@@ -6,12 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".bakedsalmon_recipe">
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="417dp"
-        android:layout_height="72dp"
+    <LinearLayout
+        android:id="@+id/toppp"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:background="#2196F3"
-        app:menu="@menu/menu_home"/>
+        android:orientation="horizontal"
+        android:padding="80dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/aboutusbtn"
+            android:layout_width="162dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:text="ABOUT US"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/settingsbtn"
+        android:layout_width="168dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text="SIBOL RECIPE"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/footerLayout1"
